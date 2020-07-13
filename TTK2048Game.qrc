@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/data">
+        <file alias="2">res/2.png</file>
+        <file alias="4">res/4.png</file>
+        <file alias="8">res/8.png</file>
+        <file alias="16">res/16.png</file>
+        <file alias="32">res/32.png</file>
+        <file alias="64">res/64.png</file>
+        <file alias="128">res/128.png</file>
+        <file alias="256">res/256.png</file>
+        <file alias="512">res/512.png</file>
+        <file alias="1024">res/1024.png</file>
+        <file alias="2048">res/2048.png</file>
+        <file alias="4096">res/4096.png</file>
+    </qresource>
+</RCC>
