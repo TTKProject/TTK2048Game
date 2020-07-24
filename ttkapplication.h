@@ -2,7 +2,7 @@
 #define TTKAPPLICATION_H
 
 /* =================================================
- * This file is part of the TTK 2048 project
+ * This file is part of the TTK2048Game project
  * Copyright (C) 2017 - 2020 Greedysky Studio
 
  * This program is free software; you can redistribute it and/or modify
@@ -22,12 +22,12 @@
 #include <QWidget>
 
 #define MAINWINDOW_HEIGHT       350
-#define MAIMWINDOW_WIDTH		350
-#define GRID_HEIGHT				75
-#define GRID_WIDTH				75
-#define VICTORY					2048
-#define COORY					4
-#define COORX					4
+#define MAIMWINDOW_WIDTH        350
+#define GRID_HEIGHT             75
+#define GRID_WIDTH              75
+#define VICTORY                 2048
+#define COORY                   4
+#define COORX                   4
 
 namespace Ui {
 class TTKApplication;
@@ -52,7 +52,7 @@ public:
         DR_RIGHT
     };
 
-    explicit TTKApplication(QWidget *parent = 0);
+    explicit TTKApplication(QWidget *parent = nullptr);
     ~TTKApplication();
 
 private Q_SLOTS:
