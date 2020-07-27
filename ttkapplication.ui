@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>TTK2048</string>
+   <string>TTKApplication</string>
   </property>
   <property name="styleSheet">
    <string notr="true">color:rgb(128, 110, 93);</string>
